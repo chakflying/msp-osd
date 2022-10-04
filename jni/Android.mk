@@ -27,6 +27,8 @@ LOCAL_SRC_FILES := \
 	osd_dji_overlay_udp.c \
 	rec/rec_shim.c \
 	rec/rec.c \
+	rec/rec_pb.c \
+	rec/rec_util.c \
 	util/fs_util.c
 include $(BUILD_SHARED_LIBRARY)
 include $(CLEAR_VARS)
